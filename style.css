@@ -409,5 +409,136 @@ nav ul li a {
 .equipment-btn:hover {
     background-color: rgba(200, 73, 53, 1);
 }
-
 /* unique section ends here */
+
+/* BMI section starts here */
+
+.bmi-calculator-section {
+    margin-top: 100px;
+}
+
+.bmi-header {
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.bmi-header h3 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.bmi-subtitle {
+    font-size: 1rem;
+    color: white;
+    font-weight: 200;
+    opacity: 50%;
+    margin-bottom: 30px;
+}
+
+.calculator-wrapper {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.calculator-container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bmi-chart {
+    width: 400px;
+}
+
+caption {
+    text-align: start;
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 2px solid rgba(77, 77, 77, 0.425);
+    color: white;
+    padding: 10px 20px;
+    text-align: start;
+}
+
+td {
+    font-size: .8rem;
+    font-weight: 300;
+    color: rgb(158, 158, 158);
+}
+
+th {
+    font-size: 1rem;
+}
+
+.bmi-calculation-form {
+    width: 600px;
+}
+
+.bmi-calculation-form h3 {
+    text-align: start;
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.form-description {
+    font-size: 1rem;
+    color: white;
+    font-weight: 200;
+    opacity: 50%;
+    margin-bottom: 20px;
+}
+
+.form-fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+input,
+#gender-select,
+#activity-level-select {
+    padding: 15px;
+    background-color: rgba(70, 69, 69, 0.712);
+    border: none;
+    border-radius: 7px;
+    color: rgb(158, 158, 158);
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+#activity-level-select {
+    grid-column: span 2;
+}
+
+.calculate-btn {
+    background-color: rgba(230, 83, 60, 1);
+    padding: 10px 60px;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    font-weight: 400;
+    border-radius: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.calculate-btn:hover {
+    background-color: rgba(200, 73, 53, 1);
+}
+
+/* BMI section starts here */
