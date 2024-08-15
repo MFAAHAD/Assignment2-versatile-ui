@@ -611,4 +611,100 @@ input,
     color: white;
     opacity: 0.5;
 }
+
 /* Meet our team ends here */
+/* Footer section starts here */
+.site-footer {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 100px;
+}
+
+.footer-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-branding {
+    width: 30%;
+}
+
+.branding-title {
+    font-size: 4.375rem;
+    color: rgb(230, 83, 60);
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+    margin-top: 2rem;
+}
+
+.branding-description {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 80%;
+    line-height: 1.5rem;
+    margin-top: 10px;
+}
+
+.footer-links-group h4,
+.footer-links-category h4 {
+    font-size: 1.75rem;
+    color: white;
+    margin-bottom: 1.25rem;
+    margin-top: 2rem;
+}
+
+.footer-links-group li,
+.footer-links-category li {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 70%;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.footer-links-group li:hover,
+.footer-links-category li:hover {
+    color: rgb(230, 83, 60);
+    transition: 0.3s;
+    font-weight: 400;
+}
+
+.site-footer hr {
+    margin: auto;
+    width: 80%;
+    opacity: 20%;
+}
+
+
+.copyright-text {
+    margin:  auto;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 0.3%;
+    margin-top: 30px;
+    width: 80%;
+    /* margin-bottom: 50px; */
+}
+
+/* footer section starts here */
+
+
+
+@media only screen and (max-width: 576px) {
+
+    .nav-content {
+       display: none;
+    }
+    .dot-icon{
+        color: white;
+        display: block;
+    }
+    
+
+}
