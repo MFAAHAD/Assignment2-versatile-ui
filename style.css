@@ -9,8 +9,9 @@
 
 body {
     max-width: 100%;
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(7, 7, 7);
 }
+
 
 
 /* banner section starts from here */
@@ -21,10 +22,14 @@ body {
     font-optical-sizing: auto;
 }
 
+.dot-icon{
+    display: none;
+}
+
 .header-class {
     width: 100%;
     height: 800px;
-    background-image: linear-gradient(rgba(15, 14, 14, 0.397), rgba(0, 0, 0, 0.479));
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 
 .nav-title {
@@ -691,20 +696,230 @@ input,
     width: 80%;
     /* margin-bottom: 50px; */
 }
+/* Footer section end here */
 
-/* footer section starts here */
-
-
+/* Media Query for Small Device (max-width: 576px) */
 
 @media only screen and (max-width: 576px) {
 
     .nav-content {
-       display: none;
-    }
-    .dot-icon{
-        color: white;
-        display: block;
-    }
-    
+        display: none;
+     }
+     .dot-icon{
+         color: white;
+         display: block;
+     }
+     .banner-container-section{
+         flex-direction: column;
+     }
 
+    .nav-title {
+        padding: 20px 0;
+        justify-content: space-between;
+    }
+
+    .bar-icon {
+        display: block;
+        margin-right: 10px;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .header-class {
+        height: auto;
+        padding: 20px;
+    }
+
+    .banner-container-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-content-section {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .banner-title-section {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    span {
+        font-size: 6rem;
+    }
+
+    .banner-text {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .btn1, .btn2 {
+        padding: 10px 30px;
+        margin-top: 20px;
+        font-size: 0.875rem;
+        margin-right: 10px;
+    }
+
+    .round-video, .workout {
+        width: 150px;
+        height: auto;
+        padding: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .round-section {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .video-num, .workout-num {
+        font-size: 1.25rem;
+    }
+
+    .change-habit {
+        margin-top: 30px;
+    }
+
+    .change-habit-text {
+        width: 90%;
+    }
+
+    .change-habit-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .change-box {
+        width: 150px;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .run-container {
+        flex-direction: column;
+        padding: 15px;
+        height: auto;
+        text-align: center;
+    }
+
+    .run-text {
+        width: 100%;
+        margin: 0;
+    }
+
+    .run-title {
+        font-size: 2.5rem;
+    }
+
+    .run-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .equipment-section {
+        margin-top: 50px;
+    }
+
+    .equipment-title {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .equipment-card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .equipment-card {
+        max-width: 90%;
+        margin-top: 20px;
+    }
+
+    .bmi-header {
+        width: 90%;
+    }
+
+    .calculator-container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .bmi-chart, .bmi-calculation-form {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .team-gallery {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+.bmi-calculation-form{
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
+    .member-details h4 {
+        font-size: 1.5rem;
+    }
+
+    .member-details p {
+        font-size: 1rem;
+    }
+
+    .site-footer {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-branding, .footer-links-group, .footer-links-category {
+        width: 100%;
+        text-align: center;
+    }
+
+    .branding-title {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    .footer-links-group h4, .footer-links-category h4 {
+        font-size: 1.5rem;
+    }
+
+    .footer-links-group li, .footer-links-category li {
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+
+    .copyright-text {
+        margin-top: 20px;
+    }
+
+    .team-section {
+        width: 100%;
+        margin-top: 400px;
+    }
+    .workout{
+        margin-top: 150px;
+        left: 300px;
+    }
+    .round-video{
+        top: 600px;
+        left: 50px;
+    }
+}
+
+
+
+
+
