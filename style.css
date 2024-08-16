@@ -729,7 +729,8 @@ input,
 
     .header-class {
         height: auto;
-        padding: 20px;
+        padding-top: 20px;
+        padding-left: 0px;
     }
 
     .banner-container-section {
@@ -884,7 +885,7 @@ input,
 
     .footer-branding, .footer-links-group, .footer-links-category {
         width: 100%;
-        text-align: center;
+        
     }
 
     .branding-title {
@@ -903,11 +904,15 @@ input,
 
     .copyright-text {
         margin-top: 20px;
+        text-align: left;
     }
 
     .team-section {
         width: 100%;
-        margin-top: 400px;
+        margin-top: 450px;
+    }
+    .team-header h3{
+        font-size: 45px;
     }
     .workout{
         margin-top: 150px;
@@ -916,6 +921,11 @@ input,
     .round-video{
         top: 600px;
         left: 50px;
+    }
+    .banner-content-section{
+        text-align: start;
+        width: 100%;
+        margin:  0;
     }
 }
 
